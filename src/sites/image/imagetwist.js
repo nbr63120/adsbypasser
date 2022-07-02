@@ -7,27 +7,26 @@
         path: /^\/.*\/.+\.html?$/,
       },
       {
-        host: /^imagetwist\.com$/,
+        host: [
+          /^imagetwist\.com$/,
+          /^vipr\.im$/,
+        ]
       },
     ],
-    ready: _.partial(run, true),
+    ready: run,
   });
 
   _.register({
     rule: {
       host: /^(imagexport|imageshimage)\.com$/,
     },
-    ready: _.partial(run, false),
+    ready: run,
   });
 
-  async function run (rp) {
-    // dirty hack, prevent scripts appending elements
-    if ($.window.jQuery) {
-      $.window.jQuery.prototype.append = undefined;
-    }
+  async function run () {
     const i = $('img.pic');
     await $.openImage(i.src, {
-      replace: rp,
+      replace: true,
     });
   }
 

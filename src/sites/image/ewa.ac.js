@@ -17,3 +17,15 @@ _.register({
     await $.openImage(url);
   },
 });
+
+_.register({
+  rule: {
+    host: /^img(viv|fsh|brd|kor)\.xyz$/,
+    path: /^\/.*$/,
+  },
+  async ready () {
+    const d = $('.main-content-box');
+    const rv = $.searchFromScripts(/document\.location\.href="([^"]+)"/, d);
+    await $.openImage(rv[1]);
+  },
+});

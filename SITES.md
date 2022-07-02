@@ -70,6 +70,7 @@
     * imgbalana.com
     * imgcloud.co
     * imgcloud.pw
+    * imgdawgknuttz.com
     * imgdrive.net
     * imgfapper.com
     * imgfresh.info
@@ -118,6 +119,7 @@
     * pop-img.info
     * porno-pirat.ru
     * pornyfap.com
+    * pspic.org
     * star-hentai.com
     * teenimage.org
     * teenshot.org
@@ -159,6 +161,7 @@
     * imgzap.com
 * abload
     * abload.de
+    * fastpic.org
     * fastpic.ru
     * imageup.ru
 * bc.vc
@@ -207,6 +210,7 @@
     * imagetwist.com
     * imagexport.com
     * imgtrex.com
+    * vipr.im
 * fullimg.com
     * freeimgup.com
     * fullimg.com
@@ -218,7 +222,6 @@
     * freakimage.com
     * hostpic.org
 * imagevenue
-    * hotchyx.com
     * imagevenue.com
 * imgfantasy
     * 0img.net
@@ -263,6 +266,7 @@
     * all-poster.ru
     * bunnyforum.org
 * imgsee.me
+    * fotokiz.com
     * hulkimge.com
     * imageeer.com
     * imgant.com
@@ -278,13 +282,21 @@
     * imgrock.info
     * imgrock.pw
     * imgsee.me
+    * imgsen.com
+    * imgstar.eu
+    * imgsto.com
     * imgtown.pw
     * imgve.com
     * imgview.pw
     * kropic.com
     * kvador.com
+    * kvador.com
     * pic-maniac.com
     * picbaron.com
+    * picdollar.com
+    * picrok.com
+    * pics4you.net
+    * silverpic.com
     * uimgshare.com
     * uploadrr.com
 * picexposed.com
@@ -427,6 +439,7 @@
     * imghost.top
     * pornbaker.men
     * somnath2003.xyz
+    * starimage.club
     * xxximagetpb.org
 * adb.ug
     * adb.ug
@@ -456,10 +469,6 @@
     * shon.xyz
 * linkdrop.net
     * 123link.carpartsviet97.site
-    * 123link.co
-    * 123link.io
-    * 123link.press
-    * 123link.pro
     * 123link.pw
     * 123link.vip
     * 123short.biz
@@ -510,6 +519,7 @@
     * allreports.site
     * alseoo.com
     * amenitiees.com
+    * apkshrt.com
     * arabtvlink.com
     * arba7co.com
     * arba7kpro.com
@@ -627,7 +637,9 @@
     * enewstalk.com
     * enrt.eu
     * ershadat.com
+    * exe.app
     * exe.io
+    * exey.io
     * express-cut.ovh
     * ez4link.org
     * ez4linkss.com
@@ -677,6 +689,7 @@
     * iitjeemainguide.in
     * ijobanana.xyz
     * ilinkshortx.com
+    * illink.net
     * imageoptimizer.us
     * infosehatku.club
     * infosia.xyz
@@ -823,6 +836,7 @@
     * shrink.vip
     * shrinkbuck.com
     * shrinkearn.com
+    * shrinke.me
     * shrinkme.io
     * shrt10.com
     * shrt8.com
@@ -874,6 +888,7 @@
     * tiny.ec
     * tinylink.run
     * tinylinks.net
+    * tinyurl.is
     * tips.atv.pw
     * tl.tc
     * tmearn.com
@@ -927,8 +942,8 @@
     * w-rajem.com
     * wrap-w0rld.com
     * xemlink.net
-    * xz2.xyz
     * xpickle.club
+    * xz2.xyz
     * yasinews.xyz
     * yesmoviesapp.info
     * yourtechguider.com
@@ -965,11 +980,32 @@
     * cshort.org
 * imgvip.net
     * cloudgallery.net
+    * imageking.xyz
     * imagespicy.site
     * imgair.net
+    * imgbbd.buzz
     * imgfile.net
+    * imgflyer.xyz
+    * imgizx.buzz
+    * imgkia.buzz
+    * imgkoc.buzz
+    * imgkorle.buzz
+    * imgkuiw.xyz
+    * imgmeno.buzz
+    * imgqte.buzz
     * imgsee.net
     * imgsky.net
+    * imgtiger.xyz
+    * imgvivo.xyz
+    * imgwang.buzz
+    * imgwav.buzz
+    * imgweng.xyz
+    * imgwewo.xyz
+    * imgwex.buzz
+    * imgwia.buzz
+    * imgxen.xyz
+    * imgxvd.buzz
+    * kekolangti.com
 * pics-money.ru
     * p0xpicmoney.ru
     * picker-click.ru
@@ -1005,8 +1041,15 @@
     * mylink.zone
     * onepiece-ex.com.br
 * fiuxy.co
-    * fiuxy.co
     * fiuxy.bz
+    * fiuxy.co
+* ewa.ac
+    * elil.cc
+    * ewa.ac
+    * imgbrd.xyz
+    * imgfsh.xyz
+    * imgkor.xyz
+    * imgviv.xyz
 * else
     * 01.nl
     * 1be.biz
@@ -1016,6 +1059,7 @@
     * 1pics.ru
     * 1tiny.net
     * 1v.to
+    * 3xplanet.com
     * 3zfile.net
     * 46.166.167.16
     * 4fun.tw
@@ -1057,11 +1101,10 @@
     * direct-link.net
     * directupload.net
     * dl-protect.com
+    * drlink.online
     * durl.me
-    * elil.cc
     * elsfile.org
     * embedupload.com
-    * ewa.ac
     * filemedia.net
     * filoops.info
     * flylink.io
@@ -1078,6 +1121,7 @@
     * gsmzone.site
     * gunting.web.id
     * healthykk.com
+    * hello.tribuntekno.com
     * hostingpics.net
     * hotshorturl.com
     * ifotos.pl
@@ -1096,6 +1140,7 @@
     * imageupper.com
     * imagezilla.net
     * img.3ezy.net
+    * img.javstore.net
     * img1.imagilive.com
     * imgazure.com
     * imgbar.net
@@ -1200,7 +1245,6 @@
     * thinfi.com
     * tinyarrows.com
     * tinypic.com
-    * tribuntekno.com
     * turboimagehost.com
     * turkdown.com
     * u.to
@@ -1232,4 +1276,5 @@
     * xxx.fopkodiak.site
     * yep.it
     * yooclick.com
+    * zeefiles.download
     * zupload.me

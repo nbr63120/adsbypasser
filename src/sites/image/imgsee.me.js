@@ -5,11 +5,12 @@
   _.register({
     rule: {
       host: [
-        /^(imgmonkey|imgtrex|imgve|uploadrr|imageeer|pic-maniac|hulkimge)\.com$/,
+        /^(imgmonkey|imgtrex|imgve|uploadrr|imageeer|pic-maniac)\.com$/,
+        /^(hulkimge|imgsen|imgsto|kvador|kropic|picdollar|silverpic)\.com$/,
         /^www\.uimgshare\.com$/,
-        /^(kropic|picdollar)\.com$/,
         /^(www\.)?imgsee\.me$/,
-        /^imgclick\.net$/,
+        /^(imgclick|pics4you)\.net$/,
+        /^(imgstar)\.eu$/,
       ],
       path: PATH_RULE,
     },
@@ -67,6 +68,27 @@
 
   _.register({
     rule: {
+      host: /^picrok\.com$/,
+      path: PATH_RULE,
+    },
+    async ready () {
+      const i = $.$('img.picview');
+      if (i) {
+        // second stage
+        await $.openImage(i.src);
+        return;
+      }
+      const node = await getAmbiguousForm('body > div > div[id] > style', (node) => {
+        return node.parentElement;
+      });
+      node.click();
+      node.click();
+      node.click();
+    },
+  });
+
+  _.register({
+    rule: {
       host: /^imgoutlet\.pw$/,
       path: PATH_RULE,
     },
@@ -99,7 +121,7 @@
   _.register({
     rule: {
       host: [
-        /^(picbaron|imgbaron|kvador|imgsen)\.com$/,
+        /^(picbaron|imgbaron|kvador|fotokiz)\.com$/,
         /^imgfiles\.org$/,
       ],
       path: PATH_RULE,
@@ -282,11 +304,13 @@
         table.set(c, true);
       }
     }
-    return Array.from(table.entries()).filter((unique) => {
+    /* eslint-disable no-unused-vars */
+    return Array.from(table.entries()).filter(([_, unique]) => {
       return unique;
-    }).map((_, c) => {
+    }).map(([_, c]) => {
       return c;
     });
+    /* eslint-enable no-unused-vars */
   }
 
   function findVisibleForm (classes) {
@@ -295,7 +319,10 @@
       if (!form) {
         continue;
       }
-      const button = $.$('input[type="button"], button[type="button"]', form);
+      const button = $.$('input[type="button"], button[type="button"], button[class]', form);
+      if (!button) {
+        continue;
+      }
       const v = getComputedStyle(button).getPropertyValue('visibility');
       if (v !== 'visible') {
         continue;

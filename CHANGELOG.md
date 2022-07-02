@@ -1,3 +1,91 @@
+## v7.20.0
+
+* fixed
+    * imagetwist.com
+    * tinyurl.is
+* added
+    * imgizx.buzz
+    * imgkorle.buzz
+    * imgstar.eu
+    * imgwia.buzz
+    * img.javstore.net
+    * pspic.org
+    * starimage.club
+
+## v7.19.0
+
+* fixed
+    * imagebam.com
+    * imgmeno.buzz
+    * pixxxels.cc
+    * turboimagehost.com
+* added
+    * imgbbd.buzz
+    * imgkoc.buzz
+    * imgqte.buzz
+    * imgwav.buzz
+    * imgxvd.buzz
+    * tinyurl.is
+
+## v7.18.0
+
+* fixed
+    * imagefruit.com
+    * imagesnake.com
+    * javlibrary.com
+* added
+    * 3xplanet.com
+    * drlink.online
+    * fastpic.org
+    * imgflyer.xyz
+    * imgkia.buzz
+    * imgkuiw.xyz
+    * imgwang.buzz
+    * imgwewo.xyz
+    * imgwex.buzz
+    * kekolangti.com
+
+## v7.17.0
+
+* fixed
+    * 22pixx.xyz
+    * imagetwist.com
+    * imagevenue.com
+    * slink.bid
+* added
+    * apkshrt.com
+    * exe.app
+    * exey.io
+    * fotokiz.com
+    * illink.net
+    * imageking.xyz
+    * imgbrd.xyz
+    * imgdawgknuttz.com
+    * imgfsh.xyz
+    * imgkor.xyz
+    * imgtiger.xyz
+    * imgvivo.xyz
+    * imgweng.xyz
+    * imgxen.xyz
+    * mirrorace.org
+    * pics4you.net
+    * shrinke.me
+    * silverpic.com
+    * vipr.im
+    * zeefiles.download
+* removed
+    * hotchyx.com
+
+## v7.16.0
+
+* added
+    * imgsen.com
+    * imgsto.com
+    * imgviv.xyz
+    * kvador.com
+    * picdollar.com
+    * picrok.com
+
 ## v7.15.0
 
 * fixed

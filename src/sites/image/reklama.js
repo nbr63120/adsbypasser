@@ -7,10 +7,12 @@
       {
         host: [
           // com
-          /^(imagecorn|imagedecode|imageko|imageshtorm|imageraven|imgixxx)\.com$/,
-          /^(imgicy|imgsavvy|imgtzar|imgtornado|imgkicks|img2share|imghit|imgmain)\.com$/,
-          /^(imgtrial|imgreputa|imgfapper|imgpart|imgbalana|imgjazz|img-planet|img-pay)\.com$/,
-          /^(hosturimage|greasyimage|damimage|xxxscreens|wpc8|dimtus|tinizo|erimge|nimzshare|hdmoza)\.com$/,
+          /^(imagecorn|imagedecode|imageko|imageshtorm|imageraven)\.com$/,
+          /^(imgicy|imgsavvy|imgtzar|imgtornado|imgkicks|img2share)\.com$/,
+          /^(imgtrial|imgreputa|imgfapper|imgpart|imgbalana|imgjazz)\.com$/,
+          /^(hosturimage|greasyimage|damimage|xxxscreens|wpc8|dimtus)\.com$/,
+          /^(imgixxx|imghit|imgmain|img-planet|img-pay)\.com$/,
+          /^(tinizo|erimge|nimzshare|hdmoza|imgdawgknuttz)\.com$/,
           /^(www\.)?(imglemon|imageblinks|multiimg)\.com$/,
           /^(i|xxx)\.hentaiyoutube\.com$/,
           /^(i\.)?imgseeds?\.com$/,
@@ -197,10 +199,32 @@
   _.register({
     rule: {
       host: /^22pixx\.xyz$/,
-      path: /^\/x-o\/(.+)\.jpeg\.html/,
+      path: /^\/i-a\/(.+)\.jpeg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('/i-', '/').replace('.html', '');
+      await $.openLink(path);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^22pixx\.xyz$/,
+      path: /^\/x-[or]\/(.+)\.jpeg\.html/,
     },
     async start () {
       const path = window.location.href.replace('/x-', '/').replace('.html', '');
+      await $.openLink(path);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^22pixx\.xyz$/,
+      path: /^\/y-[ao]\/(.+)\.jpeg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('/y-', '/').replace('.html', '');
       await $.openLink(path);
     },
   });
@@ -302,7 +326,13 @@
   });
 
   _.register({
-    rule: 'https://imgcloud.pw/image/*',
+    rule: {
+      host: [
+        /^imgcloud\.pw$/,
+        /^pspic\.org$/,
+      ],
+      path: /^\/image\/.*/,
+    },
     async ready () {
       const l = $('link[rel="image_src"]');
       await $.openImage(l.href);

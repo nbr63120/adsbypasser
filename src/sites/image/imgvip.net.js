@@ -18,18 +18,38 @@ _.register({
       host: [
         /^www\.(imgsky|imgfile|imgsee)\.net$/,
         /^www\.imagespicy\.site$/,
+        /^(imgxen|imgweng|imgtiger|imgvivo|imgwewo|imgflyer)\.xyz$/,
       ],
       path: /^\/[a-z|0-9]{4,10}$/,
     },
     {
       host: [
         /^(www\.)?imgair\.net$/,
+        /^(www\.)?imageking\.xyz$/,
         /^www\.cloudgallery\.net$/,
+        /^kekolangti\.com$/,
+        /^imgkia\.buzz$/,
       ],
     },
   ],
   async ready () {
     const matches = $.searchFromScripts(/document\.getElementById\("soDaBug"\)\.src = "([^"]+)";/);
+    await $.openImage(matches[1]);
+  },
+});
+
+_.register({
+  rule: [
+    {
+      host: [
+        /^imgkuiw\.xyz$/,
+        /^(imgwex|imgwang|imgmeno|imgwav|imgxvd|imgbbd|imgqte|imgkoc|imgkorle|imgwia|imgizx)\.buzz$/,
+      ],
+      path: /^\/[a-z|0-9]{4,10}$/,
+    },
+  ],
+  async ready () {
+    const matches = $.searchFromScripts(/document\.getElementById\("newImgE"\)\.src = "([^"]+)";/);
     await $.openImage(matches[1]);
   },
 });
